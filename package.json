@@ -1,5 +1,6 @@
 {
     "scripts": {
-        "start": "cargo run myname poem.txt"
+        "start": "cargo run myname planet.txt",
+        "test": "cargo test"
     }
 }
