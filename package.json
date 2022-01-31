@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "start": "cargo run myname planet.txt",
-        "test": "cargo test"
+        "case_sensitive": "cargo run Alien planet.txt",
+        "case_insensitive": "CASE_INSENSITIVE=1 cargo run alien planet.txt",
+        "test": "cargo watch -x test"
     }
 }
