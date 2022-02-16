@@ -2,6 +2,7 @@
     "scripts": {
         "case_sensitive": "cargo run Alien planet.txt",
         "case_insensitive": "CASE_INSENSITIVE=1 cargo run alien planet.txt",
-        "test": "cargo watch -x test"
+        "test": "cargo watch -x test",
+        "doc-watch": "cargo test --doc --package minigrep"
     }
 }
